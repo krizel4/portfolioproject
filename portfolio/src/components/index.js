@@ -1,15 +1,20 @@
 import React from 'react';
 
 function ProfileImage() {
-    const url='http://placekitten.com/600/400';
+    // const url='http://placekitten.com/600/400';
     return (
-        <div>
-            <p>
+        <div class="container">
+            {/* <p>
                 <img src={url} alt='placeholder-img' />
-            </p>
-            <h1>This is a header H1</h1>
-            <h2>This is a header H2</h2>
-            <p>This is an example paragraph.</p>
+            </p> */}
+            <h1>👩🏽‍💻</h1><br/>
+            <h1>Hi, there.</h1><br/>
+            <h2><em>I'm Krizel.</em></h2>
+            <p>I’m a software engineer with a background in
+Digital marketing. I’m based
+in Los Angeles, CA  and I specialize in
+building and designing elegant
+and efficient websites and applications.</p>
         </div>
     );
 }
