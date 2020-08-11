@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import ProfileImage from './components/index';
+import MainContent from './components/index';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <ProfileImage />
+      <MainContent />
       </header>
     </div>
   );
