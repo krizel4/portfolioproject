@@ -13,8 +13,8 @@ function MainContent() {
       <br />
       <h2>I'm Krizel.</h2>
       <p>
-        I’m a software engineer with a background in Digital marketing. I’m
-        based in Los Angeles, CA and I specialize in building and designing
+        I’m a software engineer with a background in digital marketing. I’m
+        based in Los Angeles, CA and I specialize in designing
         elegant and efficient websites and applications.
       </p>
     </div>
