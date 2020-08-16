@@ -1,4 +1,6 @@
-import { useSpring, animated } from 'react-spring';
+import React from 'react'
+import styled from 'styled-components'
+import { useSpring, animated } from 'react-spring'
 
 const CollapseMenu = (props) => {
   const { open } = useSpring({ open: props.navbarState ? 0 : 1 });

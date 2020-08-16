@@ -37,6 +37,7 @@ h2 {
 p {
   font-family: 'Cartograph CF', 'Courier New', Courier, monospace;
   line-height: 2.85ex;
+  padding: 20px;
 }
 
 /* shapes and buttons */

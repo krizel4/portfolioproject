@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 function MainContent() {
   // const url='http://placekitten.com/600/400';
@@ -7,8 +7,8 @@ function MainContent() {
       {/* <p>
                 <img src={url} alt='placeholder-img' />
             </p> */}
-      <h1>👩🏽‍💻</h1>
-      <br />
+      <span role="img" aria-label="girl behind computer"><h1>👩🏽‍💻</h1></span>
+      <br /><br/><br/>
       <h1>Hi, there.</h1>
       <br />
       <h2>I'm Krizel.</h2>
@@ -21,4 +21,4 @@ function MainContent() {
   );
 }
 
-export default MainContent;
+export default MainContent
