@@ -1,11 +1,11 @@
 import React from 'react'
-import styled from "styled-components";
+import styled from 'styled-components';
 
-import logo from "../../assets/logo-min.png"
+import logo from '../../assets/logo-min.png'
 
 const Brand = () => {
     return (
-        <Image src={logo} alt="Krizel.dev" />
+        <Image src={logo} alt='Krizel.dev' />
     )
 }
 
