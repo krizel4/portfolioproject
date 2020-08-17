@@ -1,8 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');;
-
     *,
     *::after,
     *::before {
@@ -17,14 +15,12 @@ const GlobalStyles = createGlobalStyle`
 
     body {
         box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Cartograph CF', sans-serif;
     }
 
 body {
     margin: 0;
-    font-family: -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+    font-family: 'Cartograph CF', 'Courier New', Courier, monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -74,4 +70,4 @@ body {
   /* Media queries */
 `;
 
-export default GlobalStyles
+export default GlobalStyles;

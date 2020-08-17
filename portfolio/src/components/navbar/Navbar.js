@@ -24,10 +24,10 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <a href='/'>link n1</a>
-            <a href='/'>link n2</a>
-            <a href='/'>link n3</a>
-            <a href='/'>link n4</a>
+            <a href='#'>01. about</a>
+            <a href='#'>02. experience</a>
+            <a href='#'>03. featured works</a>
+            <a href='#'>04. contact</a>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu
@@ -73,7 +73,6 @@ const NavLinks = styled(animated.ul)`
 
   & a {
     color: #dfe6e9;
-    text-transform: uppercase;
     font-weight: 600;
     border-bottom: 1px solid transparent;
     margin: 0 1.5rem;
@@ -83,7 +82,7 @@ const NavLinks = styled(animated.ul)`
 
     &:hover {
       color: #fdcb6e;
-      border-bottom: 1px solid #fdcb6e;
+      /* border-bottom: 1px solid #fdcb6e; */
     }
 
     @media (max-width: 768px) {
