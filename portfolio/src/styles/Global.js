@@ -1,21 +1,26 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
+@font-face {
+  font-family: 'LeituraDisplay-Roman';
+  src: local('LeituraDisplay-Roman')
+      url('./assets/webfonts/LeituraDisplay-Roman/font.woff2') format('woff2'),
+      url('./assets/webfonts/LeituraDisplay-Roman/font.woff') format('woff');
+}
 
-    @import url("//hello.myfonts.net/count/3c250d");
+@font-face {
+  font-family: 'LeituraDisplay-Italic';
+  src: local('LeituraDisplay-Italic')
+    url('./assets/webfonts/LeituraDisplay-Italic/font.woff2') format('woff2'),
+    url('./assets/webfonts/LeituraDisplay-Italic/font.woff') format('woff');
+}
 
-    @font-face {
-      font-family: 'LeituraDisplay-Swashes';
-      src: url('webFonts/LeituraDisplay-Swashes/font.woff2') format('woff2'), url('webFonts/LeituraDisplay-Swashes/font.woff') format('woff');
-    }
-    @font-face {
-      font-family: 'LeituraDisplay-Roman';
-      src: url('webFonts/LeituraDisplay-Roman/font.woff2') format('woff2'), url('webFonts/LeituraDisplay-Roman/font.woff') format('woff');
-    }
-    @font-face {
-      font-family: 'LeituraDisplay-Italic';
-      src: url('webFonts/LeituraDisplay-Italic/font.woff2') format('woff2'), url('webFonts/LeituraDisplay-Italic/font.woff') format('woff');
-    }
+@font-face {
+  font-family: 'LeituraDisplay-Swashes';
+  src: local('LeituraDisplay-Swashes')
+    url('./assets/webfonts/LeituraDisplay-Swashes/font.woff2') format('woff2'),
+    url('./assets/webfonts/LeituraDisplay-Swashes/font.woff') format('woff');
+}
 
     *,
     *::after,
@@ -28,17 +33,6 @@ const GlobalStyles = createGlobalStyle`
     html {
         font-size: 62.5%;
     }
-
-    body {
-        box-sizing: border-box;
-        font-family: 'Cartograph CF', sans-serif;
-    }
-
-
-    @font-face {
-  font-family: 'Leitura-Display';
-  src: local('MyFont'), url(./fonts/MyFont.woff) format('woff');
-}
 
 body {
     margin: 0;

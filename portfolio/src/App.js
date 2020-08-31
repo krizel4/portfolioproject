@@ -3,6 +3,7 @@ import './App.css';
 import MainContent from './components/index';
 import Navbar from './components/navbar/Navbar';
 import GlobalStyle from './styles/Global';
+import './index.css';
 
 class App extends Component {
   state = {

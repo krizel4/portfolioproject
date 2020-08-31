@@ -1,16 +1,20 @@
-/* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/3c250d");
+@font-face {
+  font-family: 'LeituraDisplay-Roman';
+  src: local('LeituraDisplay-Roman')
+      url('./assets/webfonts/LeituraDisplay-Roman/font.woff2') format('woff2'),
+      url('./assets/webfonts/LeituraDisplay-Roman/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LeituraDisplay-Italic';
+  src: local('LeituraDisplay-Italic')
+    url('./assets/webfonts/LeituraDisplay-Italic/font.woff2') format('woff2'),
+    url('./assets/webfonts/LeituraDisplay-Italic/font.woff') format('woff');
+}
 
 @font-face {
   font-family: 'LeituraDisplay-Swashes';
-  src: url('webFonts/LeituraDisplay-Swashes/font.woff2') format('woff2'), url('webFonts/LeituraDisplay-Swashes/font.woff') format('woff');
+  src: local('LeituraDisplay-Swashes')
+    url('./assets/webfonts/LeituraDisplay-Swashes/font.woff2') format('woff2'),
+    url('./assets/webfonts/LeituraDisplay-Swashes/font.woff') format('woff');
 }
-@font-face {
-  font-family: 'LeituraDisplay-Roman';
-  src: url('webFonts/LeituraDisplay-Roman/font.woff2') format('woff2'), url('webFonts/LeituraDisplay-Roman/font.woff') format('woff');
-}
-@font-face {
-  font-family: 'LeituraDisplay-Italic';
-  src: url('webFonts/LeituraDisplay-Italic/font.woff2') format('woff2'), url('webFonts/LeituraDisplay-Italic/font.woff') format('woff');
-}
-
