@@ -15,10 +15,10 @@ const CollapseMenu = (props) => {
       }}
       >
         <Nav>
-          <li><a href='/' onClick={props.handleNavbar}>01. about</a></li>
-          <li><a href='/' onClick={props.handleNavbar}>02. experience</a></li>
-          <li><a href='/' onClick={props.handleNavbar}>03. featured works</a></li>
-          <li><a href='/' onClick={props.handleNavbar}>04. contact</a></li>
+          <li><a href='#' onClick={props.handleNavbar}>01. about</a></li>
+          <li><a href='#' onClick={props.handleNavbar}>02. experience</a></li>
+          <li><a href='#' onClick={props.handleNavbar}>03. featured works</a></li>
+          <li><a href='#' onClick={props.handleNavbar}>04. contact</a></li>
           {/* Need to include button to highlight CV */}
         </Nav>
       </CollapseWrapper>
