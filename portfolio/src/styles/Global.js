@@ -2,24 +2,14 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 @font-face {
-  font-family: 'LeituraDisplay-Roman';
-  src: local('LeituraDisplay-Roman')
+  font-family: 'LeituraDisplay-Roman', 'LeituraDisplay-Italic', 'LeituraDisplay-Swashes';
+  src: local('LeituraDisplay-Roman', 'LeituralDisplay-Italic', 'LeituraDisplay-Swashes')
       url('./assets/webfonts/LeituraDisplay-Roman/font.woff2') format('woff2'),
-      url('./assets/webfonts/LeituraDisplay-Roman/font.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'LeituraDisplay-Italic';
-  src: local('LeituraDisplay-Italic')
-    url('./assets/webfonts/LeituraDisplay-Italic/font.woff2') format('woff2'),
-    url('./assets/webfonts/LeituraDisplay-Italic/font.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'LeituraDisplay-Swashes';
-  src: local('LeituraDisplay-Swashes')
-    url('./assets/webfonts/LeituraDisplay-Swashes/font.woff2') format('woff2'),
-    url('./assets/webfonts/LeituraDisplay-Swashes/font.woff') format('woff');
+      url('./assets/webfonts/LeituraDisplay-Roman/font.woff') format('woff'),
+      url('./assets/webfonts/LeituraDisplay-Italic/font.woff2') format('woff2'),
+      url('./assets/webfonts/LeituraDisplay-Italic/font.woff') format('woff'),
+      url('./assets/webfonts/LeituraDisplay-Swashes/font.woff2') format('woff2'),
+      url('./assets/webfonts/LeituraDisplay-Swashes/font.woff') format('woff');
 }
 
     *,
@@ -56,7 +46,7 @@ body {
   }
 
   h1 {
-    font-family: 'LeituraDisplay-Roman', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Leitura Display Roman', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 20px 0;
     display: inline-block;
     font-size: 44px;
@@ -65,7 +55,7 @@ body {
   }
 
   h2 {
-    font-family: 'LeituraDisplay-Swashes', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Leitura Display Swashes', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 3rem;
     font-size: 34px;
     margin: 10px;
@@ -80,6 +70,11 @@ body {
 
   .logo_nav {
     color: #ffffff;
+    font-family: 'Leitura Display Italic', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px 0;
+    display: inline-block;
+    font-size: 34px;
+    margin: 10px;
   }
 
   /* shapes and buttons */
