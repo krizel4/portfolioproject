@@ -78,6 +78,15 @@ body {
   }
 
   /* shapes and buttons */
+  .button {
+        border: 2px solid #ffffff;
+        padding: 10px;
+        text-align: center;
+      }
+  .button:hover {
+        background-color: #ffffff;
+        color: #dcdcd3;
+      }
 
   /* input fields */
 
