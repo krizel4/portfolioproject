@@ -27,9 +27,9 @@ const Navbar = (props) => {
             <a href='#about'>about</a>
             <a href='#experience'>experience</a>
             <a href='#featured-works'>featured works</a>
-            <a href='#featured-works'>blog</a>
+            <a href='#'>blog</a>
             <a href='#contact'>contact</a>
-            <a href='#resume' class='button'>resume</a>
+            <a href='#' class='button'>resume</a>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu
