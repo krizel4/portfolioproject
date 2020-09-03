@@ -6,64 +6,55 @@ function FeaturedWork() {
       <h1>Featured Work</h1>
       <ul>
         <li>
-          <i class='fa-li text-warning'></i>
-          <a href='https://github.com/krizel4/CASTR' target='_blank'>
+          <a href='https://github.com/krizel4/CASTR' target='_blank' rel="noopener noreferrer">
             CASTR
           </a>
         </li>
 
         <li>
-          <i class='fa-li text-warning'></i>
-          <a href='https://github.com/krizel4/burger' target='_blank'>
+          <a href='https://github.com/krizel4/burger' target='_blank' rel="noopener noreferrer">
             Eat-da-Burger
           </a>
         </li>
 
         <li>
-          <i class='fa-li text-warning'></i>
-          <a href='https://krizel4.github.io/liri-node-app/' target='_blank'>
+          <a href='https://krizel4.github.io/liri-node-app/' target='_blank' rel="noopener noreferrer">
             LIRI Bot
           </a>
         </li>
 
         <li>
-          <i class='fa-li text-warning'></i>
-          <a href='https://github.com/krizel4/Muzic-Xpansion' target='_blank'>
+          <a href='https://github.com/krizel4/Muzic-Xpansion' target='_blank' rel="noopener noreferrer">
             muzicXpansion
           </a>
         </li>
 
         <li>
-          <i class='fa-li text-warning'></i>
-          <a href='https://github.com/krizel4/TrainTime' target='_blank'>
+          <a href='https://github.com/krizel4/TrainTime' target='_blank' rel="noopener noreferrer">
             Train Time
           </a>
         </li>
 
         <li>
-          <i class='fa-li text-warning'></i>
-          <a href='https://github.com/krizel4/week6-giphy' target='_blank'>
+          <a href='https://github.com/krizel4/week6-giphy' target='_blank' rel="noopener noreferrer">
             Giphy API
           </a>
         </li>
 
         <li>
-          <i class='fa-li text-warning'></i>
-          <a href='https://github.com/krizel4/TriviaGame' target='_blank'>
+          <a href='https://github.com/krizel4/TriviaGame' target='_blank' rel="noopener noreferrer">
             Trivia Game
           </a>
         </li>
 
         <li>
-          <i class='fa-li text-warning'></i>
-          <a href='https://github.com/krizel4/unit-4-game' target='_blank'>
+          <a href='https://github.com/krizel4/unit-4-game' target='_blank' rel="noopener noreferrer">
             Crystal Game
           </a>
         </li>
 
         <li>
-          <i class='fa-li text-warning'></i>
-          <a href='https://github.com/krizel4/Psychic-Game' target='_blank'>
+          <a href='https://github.com/krizel4/Psychic-Game' target='_blank' rel="noopener noreferrer">
             Psychic Game
           </a>
         </li>

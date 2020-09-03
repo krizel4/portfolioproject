@@ -27,9 +27,9 @@ const Navbar = (props) => {
             <a href='#about'>about</a>
             <a href='#experience'>experience</a>
             <a href='#featured-works'>featured works</a>
-            <a href='#'>blog</a>
+            <a href='blog.html'>blog</a>
             <a href='#contact'>contact</a>
-            <a href='#' class='button'>resume</a>
+            <a href='resume.pdf' class='button'>resume</a>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu
@@ -54,7 +54,7 @@ const NavBar = styled(animated.nav)`
   width: 100%;
   top: 0;
   left: 0;
-  background: #2d3436;
+  background: #0D3D3D;
   z-index: 1;
   font-size: 1.4rem;
 `;
@@ -74,7 +74,7 @@ const NavLinks = styled(animated.ul)`
   margin: auto 0;
 
   & a {
-    color: #dfe6e9;
+    color: #DCDCD3;
     font-weight: 600;
     border-bottom: 1px solid transparent;
     margin: 0 1.5rem;
@@ -83,8 +83,8 @@ const NavLinks = styled(animated.ul)`
     cursor: pointer;
 
     &:hover {
-      color: #fdcb6e;
-      /* border-bottom: 1px solid #fdcb6e; */
+      color: #B25B30;
+      /* border-bottom: 1px solid #B25B30; */
     }
 
     @media (max-width: 768px) {

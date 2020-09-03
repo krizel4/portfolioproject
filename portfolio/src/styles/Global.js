@@ -1,15 +1,11 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
 @font-face {
-  font-family: 'LeituraDisplay-Roman', 'LeituraDisplay-Italic', 'LeituraDisplay-Swashes';
-  src: local('LeituraDisplay-Roman', 'LeituralDisplay-Italic', 'LeituraDisplay-Swashes')
+  font-family: 'LeituraDisplay-Roman';
+  src: local('LeituraDisplay-Roman')
       url('./assets/webfonts/LeituraDisplay-Roman/font.woff2') format('woff2'),
-      url('./assets/webfonts/LeituraDisplay-Roman/font.woff') format('woff'),
-      url('./assets/webfonts/LeituraDisplay-Italic/font.woff2') format('woff2'),
-      url('./assets/webfonts/LeituraDisplay-Italic/font.woff') format('woff'),
-      url('./assets/webfonts/LeituraDisplay-Swashes/font.woff2') format('woff2'),
-      url('./assets/webfonts/LeituraDisplay-Swashes/font.woff') format('woff');
+      url('./assets/webfonts/LeituraDisplay-Roman/font.woff') format('woff');
 }
 
     *,
@@ -27,6 +23,7 @@ const GlobalStyles = createGlobalStyle`
 body {
     margin: 0;
     font-family: 'Cartograph CF', 'Courier New', Courier, monospace;
+    font-style: italic;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -46,16 +43,17 @@ body {
   }
 
   h1 {
-    font-family: 'Leitura Display Roman', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Leitura Display Swashes', Cambria, Cochin, Georgia, Times, serif;
     margin: 20px 0;
     display: inline-block;
     font-size: 44px;
     margin: 10px;
+    font-style: italic;
     /* Add an underline to fill up gap between h1 and proceeding content. */
   }
 
   h2 {
-    font-family: 'Leitura Display Swashes', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Leitura Display Roman', Cambria, Cochin, Georgia, Times, serif;
     line-height: 3rem;
     font-size: 34px;
     margin: 10px;
@@ -70,7 +68,7 @@ body {
 
   .logo_nav {
     color: #ffffff;
-    font-family: 'Leitura Display Italic', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Leitura Display Roman', Cambria, Cochin, Georgia, Times, serif;
     margin: 20px 0;
     display: inline-block;
     font-size: 34px;
@@ -80,8 +78,8 @@ body {
 
   /* shapes and buttons */
   .button {
-        border: 2px solid #ffffff;
-        padding: 10px;
+        border: 1px solid #ffffff;
+        padding: 7px;
         text-align: center;
       }
   .button:hover {
@@ -94,4 +92,4 @@ body {
   /* Media queries */
 `;
 
-export default GlobalStyles;
+export default GlobalStyles

@@ -3,7 +3,7 @@ import React from 'react'
 function Experience() {
     return (
         <div id='experience'>
-        <h2>Experience</h2>
+        <h1>Experience</h1>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
