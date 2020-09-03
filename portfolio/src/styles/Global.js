@@ -75,6 +75,7 @@ body {
     display: inline-block;
     font-size: 34px;
     margin: 10px;
+    width: 40px;
   }
 
   /* shapes and buttons */

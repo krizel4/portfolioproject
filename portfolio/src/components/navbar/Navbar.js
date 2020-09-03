@@ -29,7 +29,7 @@ const Navbar = (props) => {
             <a href='#featured-works'>featured works</a>
             <a href='#featured-works'>blog</a>
             <a href='#contact'>contact</a>
-            <a href='#resume' class='button'>download resume</a>
+            <a href='#resume' class='button'>resume</a>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu
