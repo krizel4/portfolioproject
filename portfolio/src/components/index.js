@@ -14,8 +14,6 @@ function MainContent() {
       <span role='img' aria-label='girl behind computer'><h1>👩🏽‍💻</h1></span>
       <br /><br/><br/>
       <h1>Hi, there.</h1>
-      <br />
-      <h2>I'm Krizel.</h2>
       <p>
         I’m a software engineer with a background in digital marketing. I’m
         based in Los Angeles, CA and I specialize in designing
