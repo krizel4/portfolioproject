@@ -1,29 +1,21 @@
 import React from 'react'
+import Header from './Header'
 import About from './About'
-import FeaturedWork from './Work'
 import Experience from './Experience'
+import FeaturedWork from './Work'
 import ContactForm from './Contact'
+import Footer from './Footer'
 
 function MainContent() {
-  // const url='http://placekitten.com/600/400';
   return (
     <div class='container'>
-      {/* <p>
-                <img src={url} alt='placeholder-img' />
-            </p> */}
-      <span role='img' aria-label='girl behind computer'><h1>👩🏽‍💻</h1></span>
-      <br /><br/><br/>
-      <h1>Krizel Minnema</h1>
-      <p>
-        I’m a software engineer with a background in digital marketing. I’m
-        based in Los Angeles, CA and I specialize in designing
-        elegant and efficient websites and applications.
-      </p>
+      <Header />
       <About />
       <Experience />
       <FeaturedWork />
       <ContactForm />
-    </div>    // This ends the container.
+      <Footer />
+    </div>
   );
 }
 
