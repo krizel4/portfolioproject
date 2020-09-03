@@ -28,6 +28,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
 
+.text-content {
+    margin: 0;
+    font-family: 'Cartograph CF', 'Courier New', Courier, monospace;
+    font-style: italic;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   /* background colors
   template colors */
 
@@ -77,7 +85,7 @@ body {
   }
 
   /* shapes and buttons */
-  .button {
+  /* .button {
         border: 1px solid #ffffff;
         padding: 7px;
         text-align: center;
@@ -85,7 +93,27 @@ body {
   .button:hover {
         background-color: #ffffff;
         color: #dcdcd3;
-      }
+      } */
+
+  .button {
+    background-color:#0D3D3D;
+    border-radius:4px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    color:#ffffff;
+    padding:7px 10px;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    border-bottom-color: #ffffff !important;
+}
+.button:hover {
+	background-color:#e9ded8;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
 
   /* input fields */
 
