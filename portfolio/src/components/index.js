@@ -5,11 +5,12 @@ import Experience from './Experience'
 import FeaturedWork from './Work'
 import ContactForm from './Contact'
 import Footer from './Footer'
+import '../App'
 
 function MainContent() {
   return (
     <div class='container'>
-      <Header />
+      <Header class='resume-section' />
       <About />
       <Experience />
       <FeaturedWork />

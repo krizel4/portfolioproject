@@ -2,7 +2,7 @@ import React from 'react';
 
 function FeaturedWork() {
   return (
-    <div id='featured-works'>
+    <div id='featured-works' class='resume-section'>
       <h1>Featured Work</h1>
       <ul>
         <li>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <div>
+    <div class='resume-section'>
       <h1>Krizel Minnema</h1>
       <p>
         I’m a software engineer with a background in digital marketing. I’m

@@ -8,17 +8,17 @@ const GlobalStyles = createGlobalStyle`
       url('./assets/webfonts/LeituraDisplay-Roman/font.woff') format('woff');
 }
 
-    *,
-    *::after,
-    *::before {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: inherit;
-    }
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
 
-    html {
-        font-size: 62.5%;
-    }
+html {
+    font-size: 62.5%;
+}
 
 body {
     margin: 0;
@@ -101,19 +101,19 @@ body {
     border:1px solid #ffffff;
     display:inline-block;
     color:#ffffff;
-    padding:7px 10px;
+    padding:7px;
     border-bottom-style: solid !important;
     border-bottom-width: 1px !important;
     border-bottom-color: #ffffff !important;
+    text-align: center;
 }
 .button:hover {
-	background-color:#e9ded8;
+  	background-color:#e9ded8;
 }
 .button:active {
-	position:relative;
-	top:1px;
+    position:relative;
+    top:1px;
 }
-
 
   /* input fields */
 

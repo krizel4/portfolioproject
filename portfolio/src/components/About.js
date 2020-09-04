@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div id='about'>
+    <div id='about' class='resume-section'>
       <h1>About Me</h1>
       <p class='text-primary'>
         Hello! I'm Krizel, a software engineer based in Los Angeles, CA.

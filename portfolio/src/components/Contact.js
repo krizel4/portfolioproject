@@ -2,7 +2,7 @@ import React from 'react';
 
 function ContactForm() {
   return (
-    <div id='contact'>
+    <div id='contact' class='resume-section'>
       <h1>Get In Touch</h1>
       <form id='contact' action='mailto:hello@krizel.dev' method='post'>
         <input

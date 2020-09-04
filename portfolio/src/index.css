@@ -1,20 +1,5 @@
-@font-face {
-  font-family: 'LeituraDisplay-Roman';
-  src: local('LeituraDisplay-Roman')
-      url('./assets/webfonts/LeituraDisplay-Roman/font.woff2') format('woff2'),
-      url('./assets/webfonts/LeituraDisplay-Roman/font.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'LeituraDisplay-Italic';
-  src: local('LeituraDisplay-Italic')
-    url('./assets/webfonts/LeituraDisplay-Italic/font.woff2') format('woff2'),
-    url('./assets/webfonts/LeituraDisplay-Italic/font.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'LeituraDisplay-Swashes';
-  src: local('LeituraDisplay-Swashes')
-    url('./assets/webfonts/LeituraDisplay-Swashes/font.woff2') format('woff2'),
-    url('./assets/webfonts/LeituraDisplay-Swashes/font.woff') format('woff');
+.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
 }
