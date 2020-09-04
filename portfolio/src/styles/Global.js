@@ -45,9 +45,10 @@ body {
   }
 
   .container {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     padding: 10vw;
-    text-align: left;
-    width: 800px;
   }
 
   h1 {

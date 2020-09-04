@@ -1,5 +1,6 @@
 .resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-  max-width: 75rem;
+  padding-top: 10rem !important;
+  padding-bottom: 10rem !important;
+  max-width: 100rem;
+  width: 100%;
 }

@@ -26,7 +26,7 @@ const Navbar = (props) => {
           <NavLinks style={linkAnimation}>
             <a href='#about'>about</a>
             <a href='#experience'>experience</a>
-            <a href='#featured-works'>featured works</a>
+            <a href='#projects'>projects</a>
             <a href='blog.html'>blog</a>
             <a href='#contact'>contact</a>
             <a href='resume.pdf' class='button'>resume</a>

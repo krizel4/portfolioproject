@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
 function FeaturedWork() {
   return (
-    <div id='featured-works' class='resume-section'>
-      <h1>Featured Work</h1>
+    <div id='projects' class='resume-section'>
+      <h1>Projects</h1>
       <ul>
         <li>
           <a href='https://github.com/krizel4/CASTR' target='_blank' rel="noopener noreferrer">
@@ -15,7 +15,8 @@ function FeaturedWork() {
           <a href='https://github.com/krizel4/burger' target='_blank' rel="noopener noreferrer">
             Eat-da-Burger
           </a>
-        </li>
+        </li
+        >
 
         <li>
           <a href='https://krizel4.github.io/liri-node-app/' target='_blank' rel="noopener noreferrer">
@@ -63,4 +64,4 @@ function FeaturedWork() {
   );
 }
 
-export default FeaturedWork;
+export default FeaturedWork
