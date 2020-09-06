@@ -4,6 +4,7 @@ import { useSpring, animated, config } from 'react-spring'
 import Brand from './Brand'
 import BurgerMenu from './BurgerMenu'
 import CollapseMenu from './CollapseMenu'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Navbar = (props) => {
   const barAnimation = useSpring({
@@ -24,12 +25,12 @@ const Navbar = (props) => {
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <a href='#about'>about</a>
-            <a href='#experience'>experience</a>
-            <a href='#projects'>projects</a>
-            <a href='blog.html'>blog</a>
-            <a href='#contact'>contact</a>
-            <a href='resume.pdf' class='button'>resume</a>
+            <AnchorLink href='#about'>about</AnchorLink>
+            <AnchorLink href='#experience'>experience</AnchorLink>
+            <AnchorLink href='#projects'>projects</AnchorLink>
+            <AnchorLink href='blog.html'>blog</AnchorLink>
+            <AnchorLink href='#contact'>contact</AnchorLink>
+            <AnchorLink href='resume.pdf' class='button'>resume</AnchorLink>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu
