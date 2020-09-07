@@ -1,4 +1,17 @@
-@import url("https://use.typekit.net/wph0rbb.css");
+/* Circe */
+@import url('https://use.typekit.net/wph0rbb.css');
+
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
 
 body {
   margin: 0;
@@ -7,6 +20,55 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10vw;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.button {
+  background-color:#0D3D3D;
+  border-radius:4px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  color:#ffffff;
+  padding:7px;
+  border-bottom-style: solid !important;
+  border-bottom-width: 1px !important;
+  border-bottom-color: #ffffff !important;
+  text-align: center;
+}
+.button:hover {
+  background-color:#e9ded8;
+}
+.button:active {
+  position:relative;
+  top:1px;
+}
+
+h1 {
+  font-family: 'Leitura Display Swashes', Cambria, Cochin, Georgia, Times, serif;
+  display: inline-block;
+  font-size: 44px;
+  padding: 10px;
+  font-style: italic;
+  /* Add an underline to fill up gap between h1 and proceeding content. */
+}
+
+h2 {
+  font-family: 'Leitura Display Roman', Cambria, Cochin, Georgia, Times, serif;
+  line-height: 3rem;
+  font-size: 34px;
+  padding: 10px;
 }
 
 .text-content {
@@ -41,3 +103,40 @@ p, li {
   width: 100%;
   min-height: 100vh;
 }
+
+/* //////////////// */
+/* Buttons & Shapes */
+/* //////////////// */
+
+/* Change selector name to resume button */
+.button {
+  background-color:#0D3D3D;
+  border-radius:4px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  color:#ffffff;
+  padding:7px;
+  border-bottom-style: solid !important;
+  border-bottom-width: 1px !important;
+  border-bottom-color: #ffffff !important;
+  text-align: center;
+}
+
+.button:hover {
+  background-color:#e9ded8;
+}
+
+.button:active {
+  position:relative;
+  top:1px;
+}
+
+/* Create general button */
+
+/* //////////// */
+/* Input Fields */
+/* //////////// */
+
+/* ///////////// */
+/* Media Queries */
+/* ///////////// */

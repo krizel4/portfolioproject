@@ -1,60 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-@font-face {
-  font-family: 'LeituraDisplay-Roman';
-  src: local('LeituraDisplay-Roman')
-      url('./assets/webfonts/LeituraDisplay-Roman/font.woff2') format('woff2'),
-      url('./assets/webfonts/LeituraDisplay-Roman/font.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'circe', san-serif;
-  src: url("https://use.typekit.net/wph0rbb.css");
-}
-
-*,
-*::after,
-*::before {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: inherit;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-  /* background colors
-  template colors */
-
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
-
-  .container {
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10vw;
-  }
-
-  h1 {
-    font-family: 'Leitura Display Swashes', Cambria, Cochin, Georgia, Times, serif;
-    display: inline-block;
-    font-size: 44px;
-    padding: 10px;
-    font-style: italic;
-    /* Add an underline to fill up gap between h1 and proceeding content. */
-  }
-
-  h2 {
-    font-family: 'Leitura Display Roman', Cambria, Cochin, Georgia, Times, serif;
-    line-height: 3rem;
-    font-size: 34px;
-    padding: 10px;
-  }
 
   .logo_nav {
     color: #ffffff;
@@ -66,48 +12,6 @@ html {
     margin: 10px 0px 10px 10px;
   }
 
-  body {
-  font-family: 'circe', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-  /* shapes and buttons */
-  /* .button {
-        border: 1px solid #ffffff;
-        padding: 7px;
-        text-align: center;
-      }
-  .button:hover {
-        background-color: #ffffff;
-        color: #dcdcd3;
-      } */
-
-  .button {
-    background-color:#0D3D3D;
-    border-radius:4px;
-    border:1px solid #ffffff;
-    display:inline-block;
-    color:#ffffff;
-    padding:7px;
-    border-bottom-style: solid !important;
-    border-bottom-width: 1px !important;
-    border-bottom-color: #ffffff !important;
-    text-align: center;
-}
-.button:hover {
-  	background-color:#e9ded8;
-}
-.button:active {
-    position:relative;
-    top:1px;
-}
-
-  /* input fields */
-
-  /* Media queries */
 `;
 
-export default GlobalStyles;
+export default GlobalStyles
