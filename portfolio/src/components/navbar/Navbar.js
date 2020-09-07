@@ -30,7 +30,7 @@ const Navbar = (props) => {
             <AnchorLink href='#projects'>projects</AnchorLink>
             <AnchorLink href='blog.html'>blog</AnchorLink>
             <AnchorLink href='#contact'>contact</AnchorLink>
-            <AnchorLink href='resume.pdf' class='button'>resume</AnchorLink>
+            <AnchorLink href='resume.pdf' class='resume-btn'>resume</AnchorLink>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu
