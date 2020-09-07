@@ -24,7 +24,7 @@ const Navbar = (props) => {
       <NavBar style={barAnimation}>
         <FlexContainer>
           <Brand />
-          <NavLinks style={linkAnimation} class='text-content'>
+          <NavLinks style={linkAnimation}>
             <AnchorLink href='#about'>about</AnchorLink>
             <AnchorLink href='#experience'>experience</AnchorLink>
             <AnchorLink href='#projects'>projects</AnchorLink>
@@ -57,35 +57,36 @@ const NavBar = styled(animated.nav)`
   left: 0;
   background: #0D3D3D;
   z-index: 1;
-  font-size: 1.4rem;
+  font-size: 14px;
+  font-family: 'Cartograph CF', Menlo, Monaco, Consolas, monospace;
 `;
 
 const FlexContainer = styled.div`
   max-width: 120rem;
   display: flex;
   margin: auto;
-  padding: 0 2rem;;
+  padding: 0 2rem;
   justify-content: space-between;
   height: 5rem;
 `;
 
-const NavLinks = styled(animated.ul)`
+const NavLinks = styled(animated.ol)`
   justify-self: end;
-  list-style-type: none;
+  list-style-type: decimal;
+  counter-increment: 1;
   margin: auto 0;
 
   & a {
-    color: #DCDCD3;
-    font-weight: 600;
+    color: #E9DED8;
     border-bottom: 1px solid transparent;
     margin: 0 1.5rem;
     transition: all 300ms linear 0s;
     text-decoration: none;
-    cursor: pointer;
+
 
     &:hover {
       color: #B25B30;
-      /* border-bottom: 1px solid #B25B30; */
+      border-bottom: 7px solid #B25B30;
     }
 
     @media (max-width: 768px) {

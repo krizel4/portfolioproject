@@ -1,12 +1,14 @@
-import React from "react";
+import React from 'react';
 
 function Experience() {
   return (
-    <div id="experience">
+    <div id='experience'>
       <h1>Experience</h1>
-      <h3> Digital Marketing Strategist</h3>
-      <div>Granville Homes</div>
-      <span>August 2019 - Present</span>
+      <h3>
+        Digital Marketing Strategist
+        <span class='company'>August 2019 - Present</span>
+      </h3>
+      <span>Granville Homes</span>
 
       <h3>Marketing Manager/Owner</h3>
       <div>Krizel Photography</div>

@@ -40,8 +40,7 @@ const CollapseWrapper = styled(animated.div)`
   right: 0;
 `;
 
-const Nav = styled.ul`
-  list-style-type: none;
+const Nav = styled.ol`
   padding: 2rem 1rem 2rem 2rem;
 
   & li {
@@ -54,7 +53,6 @@ const Nav = styled.ul`
     color: #dfe6e9;
     text-transform: uppercase;
     text-decoration: none;
-    cursor: pointer;
 
     &:hover {
       color: #fdcb6e;

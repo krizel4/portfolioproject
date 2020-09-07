@@ -14,6 +14,7 @@ html {
 }
 
 body {
+  background-color: #0D3D3D;
   margin: 0;
   font-family: 'circe', sans-serif;
   font-weight: 400;
@@ -27,6 +28,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   padding: 10vw;
+  display: grid;
 }
 
 code {
@@ -38,9 +40,21 @@ h1 {
   font-family: 'Leitura Display Swashes', Cambria, Cochin, Georgia, Times, serif;
   display: inline-block;
   font-size: 44px;
-  padding: 10px;
   font-style: italic;
+  padding: 10px;
+  letter-spacing: .5pt;
+  color: #B25B30;
   /* Add an underline to fill up gap between h1 and proceeding content. */
+}
+
+.light_h1 {
+  font-family: 'Leitura Display Swashes', Cambria, Cochin, Georgia, Times, serif;
+  display: inline-block;
+  font-size: 44px;
+  font-style: italic;
+  padding: 10px;
+  letter-spacing: .5pt;
+  color: #b4806a;
 }
 
 h2 {
@@ -50,6 +64,24 @@ h2 {
   padding: 10px;
 }
 
+h3 {
+  font-family: 'Leitura Display Roman', Cambria, Cochin, Georgia, Times, serif;
+  line-height: 3rem;
+  font-size: 24px;
+  font-weight: 200;
+  letter-spacing: .5pt;
+  padding: 10px;
+}
+
+.company {
+  font-family: 'circe', san-serif;
+  line-height: 3rem;
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  margin: 0 30px;
+}
+
 .text-content {
   font-family: 'circe', sans-serif;
   padding: 10px;
@@ -57,9 +89,11 @@ h2 {
   font-size: 20px;
   font-style: normal;
   line-height: 1.5em;
+  color: #d4d4d4;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 p, li {
   font-family: 'circe', sans-serif;
@@ -71,15 +105,29 @@ p, li {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.resume-section {
-  margin: 0px auto;
+.navlink {
   font-family: 'circe', sans-serif;
   font-weight: 400;
+  font-size: 20px;
   font-style: normal;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* //////////////// */
+/* Sections & Space */
+/* //////////////// */
+
+.resume-section {
+  margin: 0px auto;
   padding: 150px 0px;
   max-width: 1000px;
   position: relative;
   width: 100%;
+  justify-content: center;
+  align-items: flex-start;
   min-height: 100vh;
 }
 
@@ -87,7 +135,73 @@ p, li {
 /* Buttons & Shapes */
 /* //////////////// */
 
-/* Change selector name to resume button */
+button {
+  border:none;
+  background: transparent;
+  padding: 30px 0;
+}
+
+button:focus{
+  outline-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+  color: #d4d4d4;
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: #dcdcd380;
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+/* .cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+  color: #ffffff;
+} */
+
+.cta:hover:before {
+  width: 100%;
+  background: #B25B30;
+}
+
+.cta:active {
+  transform: scale(0.96);
+}
+
 .resume-btn {
   background-color:#0D3D3D;
   border-radius:4px;
@@ -109,8 +223,6 @@ p, li {
   position:relative;
   top:1px;
 }
-
-/* Create general button */
 
 /* //////////// */
 /* Input Fields */
