@@ -1,6 +1,43 @@
+@import url("https://use.typekit.net/wph0rbb.css");
+
+body {
+  margin: 0;
+  font-family: 'circe', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-content {
+  font-family: 'circe', sans-serif;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, li {
+  font-family: 'circe', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .resume-section {
-  padding-top: 10rem !important;
-  padding-bottom: 10rem !important;
-  max-width: 100rem;
+  margin: 0px auto;
+  font-family: 'circe', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 150px 0px;
+  max-width: 1000px;
+  position: relative;
   width: 100%;
+  min-height: 100vh;
 }

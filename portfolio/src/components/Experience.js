@@ -1,49 +1,24 @@
-import React from 'react';
+import React from "react";
 
 function Experience() {
   return (
-    <div id='experience' class='resume-section'>
+    <div id="experience">
       <h1>Experience</h1>
+      <h3> Digital Marketing Strategist</h3>
+      <div>Granville Homes</div>
+      <span>August 2019 - Present</span>
 
-      <div>
-        <div class='resume-content'>
-          <h3>Digital Marketing Strategist</h3>
-          <div>Granville Homes</div>
-        </div>
-        <div>
-          <span class='text-primary'>August 2019 - Present</span>
-        </div>
-      </div>
+      <h3>Marketing Manager/Owner</h3>
+      <div>Krizel Photography</div>
+      <span>July 2014 - November 2019</span>
 
-      <div>
-        <div class='resume-content'>
-          <h3>Marketing Manager/Owner</h3>
-          <div>Krizel Photography</div>
-        </div>
-        <div>
-          <span class='text-primary'>July 2014 - November 2019</span>
-        </div>
-      </div>
+      <h3>Digital Marketing Strategist</h3>
+      <div>JD Food</div>
+      <span>February 2016 - January 2017</span>
 
-      <div>
-        <div class='resume-content'>
-          <h3>Digital Marketing Strategist</h3>
-          <div>JD Food</div>
-        </div>
-        <div>
-          <span class='text-primary'>February 2016 - January 2017</span>
-        </div>
-      </div>
-
-      <div class='resume-item d-flex flex-column flex-md-row justify-content-between'>
-        <div class='resume-content'>
-          <h3>Team Lead</h3>
-          <div>InterVarsity Christian Fellowship</div>
-        </div>
-        <div>
-          <span class='text-primary'>June 2010 - July 2015</span>
-        </div>
-      </div>
+      <h3>Team Lead</h3>
+      <div>InterVarsity Christian Fellowship</div>
+      <span>June 2010 - July 2015</span>
     </div>
   );
 }

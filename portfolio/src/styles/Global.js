@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 @font-face {
@@ -6,6 +6,11 @@ const GlobalStyles = createGlobalStyle`
   src: local('LeituraDisplay-Roman')
       url('./assets/webfonts/LeituraDisplay-Roman/font.woff2') format('woff2'),
       url('./assets/webfonts/LeituraDisplay-Roman/font.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'circe', san-serif;
+  src: url("https://use.typekit.net/wph0rbb.css");
 }
 
 *,
@@ -19,22 +24,6 @@ const GlobalStyles = createGlobalStyle`
 html {
     font-size: 62.5%;
 }
-
-body {
-    margin: 0;
-    font-family: 'Cartograph CF', 'Courier New', Courier, monospace;
-    font-style: italic;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-.text-content {
-    margin: 0;
-    font-family: 'Cartograph CF', 'Courier New', Courier, monospace;
-    font-style: italic;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
 
   /* background colors
   template colors */
@@ -53,10 +42,9 @@ body {
 
   h1 {
     font-family: 'Leitura Display Swashes', Cambria, Cochin, Georgia, Times, serif;
-    margin: 20px 0;
     display: inline-block;
     font-size: 44px;
-    margin: 10px;
+    padding: 10px;
     font-style: italic;
     /* Add an underline to fill up gap between h1 and proceeding content. */
   }
@@ -65,25 +53,26 @@ body {
     font-family: 'Leitura Display Roman', Cambria, Cochin, Georgia, Times, serif;
     line-height: 3rem;
     font-size: 34px;
-    margin: 10px;
-  }
-
-  p {
-    font-family: 'Cartograph CF', 'Courier New', Courier, monospace;
-    line-height: 2.85ex;
-    font-size: 16px;
-    margin: 10px;
+    padding: 10px;
   }
 
   .logo_nav {
     color: #ffffff;
     font-family: 'Leitura Display Roman', Cambria, Cochin, Georgia, Times, serif;
-    margin: 20px 0;
-    display: inline-block;
     font-size: 34px;
-    margin: 10px;
     width: 40px;
+    float: left;
+    position: relative;
+    margin: 10px 0px 10px 10px;
   }
+
+  body {
+  font-family: 'circe', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
   /* shapes and buttons */
   /* .button {
@@ -121,4 +110,4 @@ body {
   /* Media queries */
 `;
 
-export default GlobalStyles
+export default GlobalStyles;
