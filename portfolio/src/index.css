@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #0D3D3D;
+  background-color: #e9ded8;
   margin: 0;
   font-family: 'circe', sans-serif;
   font-weight: 400;
@@ -37,10 +37,9 @@ code {
 }
 
 h1 {
-  font-family: 'Leitura Display Swashes', Cambria, Cochin, Georgia, Times, serif;
+  font-family: 'moret', Cambria, Cochin, Georgia, Times, serif;
   display: inline-block;
-  font-size: 44px;
-  font-style: italic;
+  font-size: 54px;
   padding: 10px;
   letter-spacing: .5pt;
   color: #B25B30;
@@ -48,10 +47,10 @@ h1 {
 }
 
 .light_h1 {
-  font-family: 'Leitura Display Swashes', Cambria, Cochin, Georgia, Times, serif;
+  font-family: 'moret', Cambria, Cochin, Georgia, Times, serif;
   display: inline-block;
-  font-size: 44px;
-  font-style: italic;
+  font-size: 54px;
+  /* font-style: italic; */
   padding: 10px;
   letter-spacing: .5pt;
   color: #b4806a;
@@ -89,7 +88,7 @@ h3 {
   font-size: 20px;
   font-style: normal;
   line-height: 1.5em;
-  color: #d4d4d4;
+  color: #363C3C;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -101,6 +100,7 @@ p, li {
   font-size: 20px;
   font-style: normal;
   line-height: 1.5em;
+  color: #363C3C;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -115,6 +115,26 @@ p, li {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.floating_nav {
+  width: calc(100vh - 100px);
+  border-radius: 2px;
+  box-shadow: 0px 1px 10px #999;
+}
+
+ul, li {
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+  text-indent: -44px;
+  column-count: 2;
+  column-gap: 20px;
+  padding: 0 44px;
+  font-family: 'circe', sans-serif;
+  font-size: 20px;
+  color: #363C3C;
+  list-style-type: square;
+}
 
 /* //////////////// */
 /* Sections & Space */
@@ -122,7 +142,7 @@ p, li {
 
 .resume-section {
   margin: 0px auto;
-  padding: 150px 0px;
+  padding: 100px 0px;
   max-width: 1000px;
   position: relative;
   width: 100%;
@@ -153,9 +173,10 @@ a {
 .cta {
   position: relative;
   margin: auto;
-  padding: 19px 22px;
+  padding: 17px 18px;
   transition: all 0.2s ease;
-  color: #d4d4d4;
+  color: #363C3C;
+
 }
 .cta:before {
   content: "";
@@ -163,47 +184,42 @@ a {
   top: 0;
   left: 0;
   display: block;
-  border-radius: 28px;
-  background: #dcdcd380;
-  width: 56px;
-  height: 56px;
+  border-radius: 24px;
+  background: #d4d4d4;
+  width: 44px;
+  height: 44px;
   transition: all 0.3s ease;
+  font-weight: 900;
 }
 .cta span {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 18px;
-  font-weight: 900;
-  letter-spacing: 0.25em;
+  font-weight: 400;
+  letter-spacing: 0.20em;
   text-transform: uppercase;
-  vertical-align: middle;
+  font-family: 'circe', sans-serif;
 }
-
-/* .cta svg {
-  position: relative;
-  top: 0;
-  margin-left: 10px;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: #111;
-  stroke-width: 2;
-  transform: translateX(-5px);
-  transition: all 0.3s ease;
-  color: #ffffff;
-} */
 
 .cta:hover:before {
   width: 100%;
-  background: #B25B30;
+  background: #9b867f;
 }
+
+/* .cta:hover {
+  width: 100%;
+  background: #DCDCd3;
+  color: #B25B30;
+  border-radius: 24px;
+} */
 
 .cta:active {
   transform: scale(0.96);
+  color: #B25B30;
 }
 
 .resume-btn {
-  background-color:#0D3D3D;
+  background-color:#e9ded8;
   border-radius:4px;
   border:1px solid #ffffff;
   display:inline-block;

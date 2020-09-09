@@ -18,6 +18,19 @@ function About() {
       <p class='text-content'>
         Here are a few technologies I've been working with recently:
       </p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript (ES6)</li>
+        <li>jQuery</li>
+        <li>MongoDB</li>
+        <li>MySQL</li>
+        <li>ExpressJS</li>
+        <li>React</li>
+        <li>NodeJS</li>
+        <li>Python</li>
+      </ul>
+
     </div>
 //     <div>
 // Profile Image Here
