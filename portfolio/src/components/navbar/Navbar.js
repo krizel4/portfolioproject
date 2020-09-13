@@ -87,7 +87,7 @@ const NavBar = styled(animated.nav)`
   width: 100%;
   top: 0;
   left: 0;
-  background: #e9ded8;
+  background: #dcdcd3;
   z-index: 1;
   font-size: 14px;
   font-family: "Cartograph CF", Menlo, Monaco, Consolas, monospace;
@@ -112,14 +112,14 @@ const NavLinks = styled(animated.ol)`
   margin: auto 0;
 
   & a {
-    color: #9B867F;
+    color: #0d3d3d;
     border-bottom: 1px solid transparent;
     margin: 0 1.5rem;
     transition: all 300ms linear 0s;
     text-decoration: none;
 
     &:hover {
-      color: #363c3c;
+      color: #b25b30;
       /* border-bottom: 7px solid #B25B30; */
     }
 

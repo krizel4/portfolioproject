@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #e9ded8;
+  background-color: #dcdcd3;
   margin: 0;
   font-family: 'circe', sans-serif;
   font-weight: 400;
@@ -64,10 +64,11 @@ h2 {
 }
 
 h3 {
-  font-family: 'Leitura Display Roman', Cambria, Cochin, Georgia, Times, serif;
+  font-family: 'grange-extended', sans-serif;
+  font-weight: 600;
+  font-style: normal;
   line-height: 3rem;
-  font-size: 24px;
-  font-weight: 200;
+  font-size: 16px;
   letter-spacing: .5pt;
   padding: 10px;
 }
@@ -185,7 +186,7 @@ a {
   left: 0;
   display: block;
   border-radius: 24px;
-  background: #d4d4d4;
+  background: #b4806aa6;
   width: 44px;
   height: 44px;
   transition: all 0.3s ease;
@@ -203,7 +204,7 @@ a {
 
 .cta:hover:before {
   width: 100%;
-  background: #9b867f;
+  background: #b4806a;
 }
 
 /* .cta:hover {
