@@ -4,8 +4,8 @@ function FeaturedWork() {
   return (
     <div id='projects' class='resume-section'>
       <h1>Projects</h1>
-      <ul>
-        <li>
+      <ul class='works_list'>
+        <li class='works_list'>
           <a href='https://github.com/krizel4/CASTR' target='_blank' rel="noopener noreferrer">
             CASTR
           </a>
