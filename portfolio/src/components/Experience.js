@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-class Testimonial extends Component {
+class Experience extends Component {
   render() {
     return (
+
       <React.Fragment>
         <div className='resume-section' id='experience'>
             <h1>Experience</h1>
@@ -158,4 +159,4 @@ class Testimonial extends Component {
     );
   }
 }
-export default Testimonial;
+export default Experience;
